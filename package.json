@@ -3,13 +3,16 @@
   "version": "0.0.1",
   "description": "An electron app to test math knowledge",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Futupas",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^31.1.0"
+    "chai": "^5.1.1",
+    "electron": "^31.1.0",
+    "mocha": "^10.5.2"
   }
 }
